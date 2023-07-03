@@ -1,7 +1,7 @@
 package proyectoprogramacion;
 import javax.swing.JOptionPane;
 
-public class CajaPreferencial {
+public class Caja {
   
         JOptionPane.showMessageDialog(null, "Bienvenido al Banco XYZ");
 
@@ -20,5 +20,5 @@ public class CajaPreferencial {
                 + "Tipo de trámite: " + tipoTramite;
         JOptionPane.showMessageDialog(null, mensaje);
     
-    
+    //
 }
