@@ -2,23 +2,27 @@ package proyectoprogramacion;
 import javax.swing.JOptionPane;
 
 public class Caja {
-  
-        JOptionPane.showMessageDialog(null, "Bienvenido al Banco XYZ");
-
-        String nombre = JOptionPane.showInputDialog("Ingrese el nombre del usuario:");
-
-        int cedula = Integer.parseInt(JOptionPane.showInputDialog("El numero de cedula del usuario es: "));
-
-        int tipoTramite = Integer.parseInt(JOptionPane.showInputDialog("""
-                                                                       Ingrese el tramite a realizar: 
-                                                                       1. Depositos
-                                                                       2. Retiros
-                                                                       3. Cambio de divisas"""));
-
-        String mensaje = "Nombre: " + nombre + "\n"
-                + "Número de cédula: " + cedula + "\n"
-                + "Tipo de trámite: " + tipoTramite;
-        JOptionPane.showMessageDialog(null, mensaje);
     
-    //
+    // Atributos
+    private String nombre;
+    private int cedula;
+    private String correo;
+    private int edad;
+    private int tramite;
+    
+    // Metodos
+    public void ingresarInformacion() {
+        nombre = JOptionPane.showInputDialog("Ingrese su nombre:");
+        edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad del usuario: "));
+        cedula = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero de cedula del usuario:"));
+                         Nombre: """ + nombre + "\n" +
+                        "Cédula: " + cedula + "\n" +
+                        "Correo: " + correo + "\n" +
+                        "Edad: " + edad +
+                        "Tramite: " + tramite
+                        ;
+        
+        JOptionPane.showMessageDialog(null, mensaje);
+    }
+  
 }
