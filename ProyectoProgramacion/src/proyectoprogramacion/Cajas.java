@@ -24,11 +24,7 @@ public class Cajas {
         edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad del usuario: "));
         cedula = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero de cedula del usuario:"));
 
-        String mensaje =  "Nombre: " + nombre + "  \n" +
-        "Cédula: " + cedula + "\n"
-                + "Correo: " + correo + "\n"
-                + "Edad: " + edad
-                + "Tramite: " + tramite;
+      
 
         correo = JOptionPane.showInputDialog("Ingrese su correo electrónico:");
         tramite = Integer.parseInt(JOptionPane.showInputDialog("""
