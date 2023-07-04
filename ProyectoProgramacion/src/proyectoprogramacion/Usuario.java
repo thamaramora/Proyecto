@@ -122,7 +122,7 @@ public class Usuario {
             "Contraseña:", contraseniaPane
         };
 
-        int option = JOptionPane.showConfirmDialog(null, message, "Ingrese los datos", JOptionPane.OK_CANCEL_OPTION);
+        int option = JOptionPane.showConfirmDialog(null, message, "Registro", JOptionPane.OK_CANCEL_OPTION);
 
         if (option == JOptionPane.OK_OPTION) {
             setIdentificacion(identificacionPane.getText().trim());
