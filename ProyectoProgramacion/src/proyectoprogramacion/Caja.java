@@ -13,13 +13,13 @@ public class Caja {
     
 
 
-    /* 
-    Metodos
+     
+    //Metodos
     public void ingresarInformacion() {
         nombre = JOptionPane.showInputDialog("Ingrese su nombre:");
         edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad del usuario: "));
         cedula = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero de cedula del usuario:"));
-        Nombre: """ + nombre + "  \n" +
+        String mensaje =  "Nombre: " + nombre + "  \n" +
         "Cédula: " + cedula + "\n"
                 + "Correo: " + correo + "\n"
                 + "Edad: " + edad
@@ -27,7 +27,7 @@ public class Caja {
 
         JOptionPane.showMessageDialog(null, mensaje);
     }
-    */
+    
     }
 
 
